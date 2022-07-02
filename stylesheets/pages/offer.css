@@ -1,0 +1,116 @@
+/* 오늘의 쇼핑 제안 */
+body {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+}
+
+.container {
+    width: 1022px;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    margin-top: 100px;
+    margin-bottom: 48px;
+}
+.logo-area a {
+    display: block;
+    width: 100%;
+}
+.logo-area picture img,
+.logo-area picture source {
+    width: 176px;
+    height: 40px;
+}
+
+/* Offer - title*/
+.offer-title-area {
+    background-image: url("../assets/icon/shopping.svg");
+    background-repeat: no-repeat;
+}
+.offer-title-area h2 {
+    margin-left: 30px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 115%;
+}
+
+/* Offer - product */
+.offer-list {
+    display: flex;
+    margin-top: 24px;
+}
+.offer-item {
+    position: relative;
+    width: 200px;
+    height: 270px;
+    /* border: 1px solid red; */
+}
+.discount {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 53px;
+    height: 30px;
+    padding: 3px 10px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--color-white);
+    background-color: var(--color-red-500);
+}
+.offer-item-img {
+    display: block;
+    margin: 0 auto;
+}
+.offer-item-info {
+    margin: 12px 14px 0;
+}
+.offer-item-name {
+    margin-bottom: 12px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 120%;
+}
+.delivery-info {
+    margin-bottom: 4px;
+}
+p.delivery-info {
+    color: var(--color-gray-700);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 120%;
+}
+.rating-area {
+    /* background-image: url("/assets/sprites/rating-stars.png");
+    background-repeat: no-repeat; */
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+}
+.star {
+    width: 68px;
+    height: 12px;
+    background-image: url("../assets/sprites/rating-stars.png");
+    background-repeat: no-repeat;
+}
+.star4 {
+    background-position-y: 80%;
+}
+.star4-5 {
+    background-position-y: 90%;
+}
+.star5 {
+    background-position-y: 100%;
+}
+.reviews {
+    margin-left: 4px;
+    color: var(--color-gray-700);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 120%;
+}
